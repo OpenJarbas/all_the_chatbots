@@ -41,4 +41,5 @@ It's easy to make a bot, but you will notice most of them use the same base aiml
 The following chatbots are worth of notice
 
 [NeuralConvo](http://neuralconvo.huggingface.co/) - Deep learning chatbot trained through Neuralconvo, a Torch library that implements Sequence to Sequence Learning with Neural Networks (seq2seq), reproducing the results in the Neural Conversational Model paper (aka the Google chatbot).
+
 [Mitsuku](https://www.pandorabots.com/mitsuku/) - Mitsuku, a four-time winner of the Loebner Prize Turing Test, is the world's best conversational chatbot. 
