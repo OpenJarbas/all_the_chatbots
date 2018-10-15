@@ -8,6 +8,9 @@ from all_the_chatbots.pandorabots import *
 from all_the_chatbots.peninsulabahai import ask_bahai
 from all_the_chatbots.qaqash import ask_qaqash
 from all_the_chatbots.sentino import ask_sentino
+from all_the_chatbots.allenai import ask_euclid, ask_aristo
+from all_the_chatbots.askthecatterpillar import ask_the_caterpillar
+from all_the_chatbots.wolframalpha import ask_wolfram_alpha
 from os import walk
 from os.path import dirname, join
 
@@ -46,6 +49,8 @@ def bot_map():
 def bot_number():
     return len(bot_list())
 
-print(bot_number())
-print(bot_list())
-print(bot_map())
+
+if __name__ == "__main__":
+    print(bot_number())
+    print(bot_list())
+    print(bot_map())
