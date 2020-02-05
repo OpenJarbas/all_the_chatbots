@@ -1,15 +1,10 @@
 from all_the_chatbots.botlibre import ask_julie
 from all_the_chatbots.catty import ask_catty
 from all_the_chatbots.chatterer import ask_chatterer
-from all_the_chatbots.neuralconvo import ask_neuralconvo
-from all_the_chatbots.mitsuku import ask_mitsuku
 from all_the_chatbots.nameguru import ask_nameguru
 from all_the_chatbots.pandorabots import *
 from all_the_chatbots.peninsulabahai import ask_bahai
 from all_the_chatbots.qaqash import ask_qaqash
-from all_the_chatbots.sentino import ask_sentino
-from all_the_chatbots.allenai import ask_euclid, ask_aristo
-from all_the_chatbots.askthecatterpillar import ask_the_caterpillar
 from all_the_chatbots.wolframalpha import ask_wolfram_alpha
 from os import walk
 from os.path import dirname, join

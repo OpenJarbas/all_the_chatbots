@@ -28,3 +28,6 @@ def ask_aristo(text, raw=False):
             response["dataSource"] = data["sourceFriendlyName"]
             response["top20"] = data['top20ThisCluster']
     return response
+
+
+print(ask_aristo("1 + 1"))
