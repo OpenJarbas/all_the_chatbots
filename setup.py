@@ -8,5 +8,6 @@ setup(
     license='MIT',
     author='jarbasAI',
     author_email='jarbasai@mailfence.com',
+    install_requires=["bs4", "requests"],
     description='unofficial apis for all the chatbots'
 )
